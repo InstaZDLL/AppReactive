@@ -1,6 +1,10 @@
 package testappreactive;
 
 import javax.swing.*;
+import java.awt.*;
+
+import static java.awt.Color.*;
+import static java.awt.Font.BOLD;
 
 public class Fenetre extends JFrame {
 
@@ -29,14 +33,20 @@ public class Fenetre extends JFrame {
 
             // Contenu de la fenêtre
             // Grille
+            mainPanel.setLayout(new BorderLayout());
+
                 // NORD
+                label.setFont(new Font("Verdana", BOLD, 16));
+                label.setForeground(blue);
+                label.setHorizontalAlignment(JLabel.CENTER);
+                mainPanel.add(label, BorderLayout.NORTH);
 
                 // CENTRE
 
                 // SUD
 
             // Coller sur le ContentPane
-
+            this.setContentPane(mainPanel);
         // Visible ?
         this.setVisible(true);
     }
