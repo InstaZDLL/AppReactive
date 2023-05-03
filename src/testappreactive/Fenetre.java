@@ -6,7 +6,12 @@ public class Fenetre extends JFrame {
 
 
     // Attribus
-
+    private JPanel mainPanel = new JPanel();
+    private JPanel centerPanel = new JPanel();
+    private  JPanel southPanel = new JPanel();
+    private JLabel label = new JLabel();
+    private JButton bouton1 = new JButton();
+    private JButton bouton2 = new JButton();
 
     // Méthodes
     public Fenetre () {
