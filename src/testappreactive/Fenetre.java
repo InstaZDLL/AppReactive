@@ -9,7 +9,7 @@ public class Fenetre extends JFrame {
     private JPanel mainPanel = new JPanel();
     private JPanel centerPanel = new JPanel();
     private  JPanel southPanel = new JPanel();
-    private JLabel label = new JLabel();
+    private JLabel label = new JLabel("Boujour ;)");
     private JButton bouton1 = new JButton("Bouton No 1");
     private JButton bouton2 = new JButton("Bouton No 2");
 
